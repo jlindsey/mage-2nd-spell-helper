@@ -52,4 +52,6 @@ webpack(webpackConfig, function (err, stats) {
   else {
     finalize()
   }
+
+  process.exit(0)
 })
